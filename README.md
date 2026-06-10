@@ -296,3 +296,14 @@ docker compose up -d
 ✅ API trả dữ liệu JSON thành công
 ✅ Docker network hoạt động
 
+- Node-RED lấy được dữ liệu thời tiết thật
+
+<img width="1315" height="808" alt="image" src="https://github.com/user-attachments/assets/d85d9215-eb59-410c-920d-daca2a552432" />
+
+- LƯU DỮ LIỆU VÀO MARIADB
+
+  <img width="992" height="720" alt="image" src="https://github.com/user-attachments/assets/b577b710-9617-4054-8e5c-12d22475a970" />
+
+=> kết quả 
+
+<img width="960" height="296" alt="image" src="https://github.com/user-attachments/assets/d69e2d42-ca30-485d-8f86-23c8a526a7aa" />

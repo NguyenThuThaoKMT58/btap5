@@ -310,8 +310,7 @@ docker compose up -d
 
 <img width="1858" height="917" alt="image" src="https://github.com/user-attachments/assets/96ccd91b-ce55-46f8-9d64-6cd08070b1ac" />
 
-=> ✅ Build Influx hoạt động
-✅ Dữ liệu đã được gửi sang node InfluxDB
+=> ✅ Node-RED flow xử lý dữ liệu realtime từ API và gửi vào InfluxDB + MariaDB
 
 <img width="1101" height="905" alt="image" src="https://github.com/user-attachments/assets/0fc7cf24-fe0c-459a-b489-87d4b29c44ac" />
 
@@ -324,4 +323,7 @@ docker compose up -d
 <img width="1098" height="906" alt="image" src="https://github.com/user-attachments/assets/d6bd0ecf-14e4-42a1-9c1a-1ab281be54d2" />
  =>✅ Grafana kết nối được InfluxDB
 
- 
+ <img width="1113" height="898" alt="image" src="https://github.com/user-attachments/assets/e5a1b23e-db0f-4701-a32a-0d3f7e405501" />
+
+=> Grafana hiển thị dữ liệu độ ẩm realtime từ InfluxDB bằng Flux query
+

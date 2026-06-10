@@ -251,3 +251,48 @@ docker load < nodered.tar
 Chạy
 
 docker compose up -d
+
+2. Thực hành
+
+   - TẠO THƯ MỤC DỰ ÁN
+
+     <img width="567" height="203" alt="image" src="https://github.com/user-attachments/assets/4103b2a8-28d3-47f7-bb6d-1c4f387950d5" />
+
+- TẠO docker-compose.yml
+
+<img width="1025" height="897" alt="image" src="https://github.com/user-attachments/assets/dc3baa28-2b23-4215-9b6f-8c0dec15d8c0" />
+
+- TẠO FLASK API và app.py 
+
+  <img width="687" height="386" alt="image" src="https://github.com/user-attachments/assets/ad89b3ed-8dbf-4a9d-83ce-0bfc5fa3edc6" />
+
+<img width="1005" height="902" alt="image" src="https://github.com/user-attachments/assets/6856d4c6-4e4f-45d8-8aec-7683493482c8" />
+
+- FRONTEND
+
+  <img width="996" height="873" alt="image" src="https://github.com/user-attachments/assets/de3a47b3-bf78-464a-8c25-d9f29e602c16" />
+
+- NGINX
+
+  <img width="747" height="500" alt="image" src="https://github.com/user-attachments/assets/198c46e8-3231-45ad-ab41-72f06a704ad1" />
+
+- Chạy các container
+
+<img width="1013" height="897" alt="image" src="https://github.com/user-attachments/assets/76e53f66-8ba8-4ca4-8ee7-b27293c45367" />
+
+- MARIADB
+
+  <img width="987" height="765" alt="image" src="https://github.com/user-attachments/assets/cdb02a37-d5a6-48b6-973a-5c35c19c8e62" />
+
+<img width="955" height="546" alt="image" src="https://github.com/user-attachments/assets/8b087886-2606-49e6-94fc-bbbf7d841811" />
+
+<img width="806" height="62" alt="image" src="https://github.com/user-attachments/assets/7f67ada6-ebaa-46fe-a24b-f88067ab2bd9" />
+
+=> Kết quả cho thấy : 
+
+✅MariaDB hoạt động
+✅ Bảng realtime_data hoạt động
+✅ Flask kết nối được MariaDB
+✅ API trả dữ liệu JSON thành công
+✅ Docker network hoạt động
+

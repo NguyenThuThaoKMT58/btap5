@@ -307,3 +307,21 @@ docker compose up -d
 => kết quả 
 
 <img width="960" height="296" alt="image" src="https://github.com/user-attachments/assets/d69e2d42-ca30-485d-8f86-23c8a526a7aa" />
+
+<img width="1858" height="917" alt="image" src="https://github.com/user-attachments/assets/96ccd91b-ce55-46f8-9d64-6cd08070b1ac" />
+
+=> ✅ Build Influx hoạt động
+✅ Dữ liệu đã được gửi sang node InfluxDB
+
+<img width="1101" height="905" alt="image" src="https://github.com/user-attachments/assets/0fc7cf24-fe0c-459a-b489-87d4b29c44ac" />
+
+=>✅ Đã có dữ liệu trong InfluxDB
+  ✅ Có 2 đường biểu diễn:
+
+    . Nhiệt độ khoảng 27°C
+    . Độ ẩm khoảng 75-76%
+
+<img width="1098" height="906" alt="image" src="https://github.com/user-attachments/assets/d6bd0ecf-14e4-42a1-9c1a-1ab281be54d2" />
+ =>✅ Grafana kết nối được InfluxDB
+
+ 
